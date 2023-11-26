@@ -7,6 +7,7 @@ const Seat = () => {
 
   const handleClick = () => {
     // 处理按钮点击事件的逻辑
+    // 根据当前场上的人数来给玩家发牌
     // 例如，点击按钮后隐藏按钮
     setButtonVisible(false)
   }

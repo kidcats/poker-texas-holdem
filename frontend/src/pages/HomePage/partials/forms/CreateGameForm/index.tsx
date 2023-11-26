@@ -30,7 +30,8 @@ const CreateGameForm = ({ createGameData, closeForm, isFormOpen }: CreateGameFor
       smallBlind,
       bigBlind,
       buyIn,
-      seatCount
+      seatCount,
+      players: []
     })
 
     handleApiResponse(response, closeForm, methods.setError)
